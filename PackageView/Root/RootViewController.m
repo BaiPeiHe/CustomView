@@ -11,6 +11,8 @@
 #import "Case2ViewController.h"
 #import "Case3ViewController.h"
 #import "Case4ViewController.h"
+#import "Case5ViewController.h"
+#import "Case6ViewController.h"
 
 #import "Masonry.h"
 
@@ -36,7 +38,14 @@
 
 - (void)createData{
     
-    self.dataArr = [NSMutableArray arrayWithObjects:@"QQ 通讯录界面 - 全部刷新",@"QQ 通讯录界面 - 局部刷新",@"商品联动",@"多种限制条件检索视图", nil];
+    self.dataArr = [NSMutableArray arrayWithObjects:
+            /* 01 */   @"Case01   QQ 通讯录界面 - 全部刷新",
+            /* 02 */   @"Case02   QQ 通讯录界面 - 局部刷新",
+            /* 03 */   @"Case03   商品分类展示 - TableView联动",
+            /* 04 */   @"Case04   中关村 - TableView联动",
+            /* 05 */   @"Case05   省市区 - TableView联动",
+            /* 06 */   @"Case06   多种限制条件检索视图",
+                                nil];
 }
 
 
@@ -60,6 +69,7 @@
 
 
 #pragma mark UITableView 协议方法
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
@@ -104,6 +114,20 @@
             
             Case4ViewController *case4VC = [[Case4ViewController alloc] init];
             [self.navigationController pushViewController:case4VC animated:YES];
+            
+            break;
+        }
+        case 4:{
+            
+            Case5ViewController *case5VC = [[Case5ViewController alloc] init];
+            [self.navigationController pushViewController:case5VC animated:YES];
+            
+            break;
+        }
+        case 5:{
+            
+            Case6ViewController *case6VC = [[Case6ViewController alloc] init];
+            [self.navigationController pushViewController:case6VC animated:YES];
             
             break;
         }
