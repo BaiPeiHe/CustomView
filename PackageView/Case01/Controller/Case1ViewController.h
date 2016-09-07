@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  QQ 通讯录界面
+ */
 @interface Case1ViewController : UIViewController
 
 @end

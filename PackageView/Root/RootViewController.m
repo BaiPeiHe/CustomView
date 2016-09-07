@@ -10,6 +10,7 @@
 #import "Case1ViewController.h"
 #import "Case2ViewController.h"
 #import "Case3ViewController.h"
+#import "Case4ViewController.h"
 
 #import "Masonry.h"
 
@@ -35,7 +36,7 @@
 
 - (void)createData{
     
-    self.dataArr = [NSMutableArray arrayWithObjects:@"QQ 通讯录界面",@"商品联动",@"多种限制条件检索视图", nil];
+    self.dataArr = [NSMutableArray arrayWithObjects:@"QQ 通讯录界面 - 全部刷新",@"QQ 通讯录界面 - 局部刷新",@"商品联动",@"多种限制条件检索视图", nil];
 }
 
 
@@ -96,6 +97,13 @@
             
             Case3ViewController *case3VC = [[Case3ViewController alloc] init];
             [self.navigationController pushViewController:case3VC animated:YES];
+            
+            break;
+        }
+        case 3:{
+            
+            Case4ViewController *case4VC = [[Case4ViewController alloc] init];
+            [self.navigationController pushViewController:case4VC animated:YES];
             
             break;
         }
