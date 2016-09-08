@@ -31,6 +31,8 @@
 		E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E531D800F2E0037B941 /* NetWorkingTool.m */; };
 		E2745E561D8010670037B941 /* area.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2745E551D8010670037B941 /* area.txt */; };
 		E2745E5C1D8014EA0037B941 /* MultiConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E5B1D8014EA0037B941 /* MultiConditionView.m */; };
+		E2745E661D8111A10037B941 /* ClassificationDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E651D8111A10037B941 /* ClassificationDisplayView.m */; };
+		E2745E761D813FF70037B941 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E751D813FF70037B941 /* Case7ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,10 @@
 		E2745E551D8010670037B941 /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
 		E2745E5A1D8014EA0037B941 /* MultiConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionView.h; sourceTree = "<group>"; };
 		E2745E5B1D8014EA0037B941 /* MultiConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionView.m; sourceTree = "<group>"; };
+		E2745E641D8111A10037B941 /* ClassificationDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassificationDisplayView.h; sourceTree = "<group>"; };
+		E2745E651D8111A10037B941 /* ClassificationDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassificationDisplayView.m; sourceTree = "<group>"; };
+		E2745E741D813FF70037B941 /* Case7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7ViewController.h; sourceTree = "<group>"; };
+		E2745E751D813FF70037B941 /* Case7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,7 @@
 				E2745E331D800E1A0037B941 /* Case04 */,
 				E2745E3C1D800E1A0037B941 /* Case05 */,
 				E2745E431D800E1A0037B941 /* Case06 */,
+				E2745E671D813F090037B941 /* Case07 */,
 				E2745DE71D7FB8FE0037B941 /* Others */,
 				E2745DAC1D7FB2EC0037B941 /* Supporting Files */,
 			);
@@ -241,9 +248,9 @@
 		E2745DE41D7FB8F10037B941 /* Case03 */ = {
 			isa = PBXGroup;
 			children = (
+				E2745E601D8111A10037B941 /* ClassificationDisplayView */,
 				E2745E081D7FFBC60037B941 /* Controller */,
 				E2745E0B1D7FFBC60037B941 /* Model */,
-				E2745E0C1D7FFBC60037B941 /* View */,
 			);
 			path = Case03;
 			sourceTree = "<group>";
@@ -320,37 +327,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E0C1D7FFBC60037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E0D1D7FFBC60037B941 /* CollectionViewCell */,
-				E2745E0E1D7FFBC60037B941 /* TableViewCell */,
-				E2745E0F1D7FFBC60037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E0D1D7FFBC60037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E0E1D7FFBC60037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E0F1D7FFBC60037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		E2745E111D7FFBD30037B941 /* Controller */ = {
@@ -633,6 +609,96 @@
 			path = NetWorkingTool;
 			sourceTree = "<group>";
 		};
+		E2745E601D8111A10037B941 /* ClassificationDisplayView */ = {
+			isa = PBXGroup;
+			children = (
+				E2745E611D8111A10037B941 /* CollectionViewCell */,
+				E2745E621D8111A10037B941 /* TableViewCell */,
+				E2745E631D8111A10037B941 /* View */,
+			);
+			path = ClassificationDisplayView;
+			sourceTree = "<group>";
+		};
+		E2745E611D8111A10037B941 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E2745E621D8111A10037B941 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E2745E631D8111A10037B941 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2745E641D8111A10037B941 /* ClassificationDisplayView.h */,
+				E2745E651D8111A10037B941 /* ClassificationDisplayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2745E671D813F090037B941 /* Case07 */ = {
+			isa = PBXGroup;
+			children = (
+				E2745E681D813F090037B941 /* Controller */,
+				E2745E691D813F090037B941 /* Model */,
+				E2745E6A1D813F090037B941 /* View */,
+			);
+			path = Case07;
+			sourceTree = "<group>";
+		};
+		E2745E681D813F090037B941 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2745E741D813FF70037B941 /* Case7ViewController.h */,
+				E2745E751D813FF70037B941 /* Case7ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2745E691D813F090037B941 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2745E6A1D813F090037B941 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2745E6B1D813F090037B941 /* CollectionViewCell */,
+				E2745E6C1D813F090037B941 /* TableViewCell */,
+				E2745E6D1D813F090037B941 /* View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2745E6B1D813F090037B941 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E2745E6C1D813F090037B941 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E2745E6D1D813F090037B941 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -823,6 +889,7 @@
 				E2745E4A1D800E1A0037B941 /* Case4ViewController.m in Sources */,
 				E2745DE61D7FB8F10037B941 /* AppDelegate.m in Sources */,
 				E2745DFB1D7FC5220037B941 /* NHBaseModel.m in Sources */,
+				E2745E661D8111A10037B941 /* ClassificationDisplayView.m in Sources */,
 				E2745E5C1D8014EA0037B941 /* MultiConditionView.m in Sources */,
 				E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */,
 				E2745E281D7FFBDC0037B941 /* Case1HeadView.m in Sources */,
@@ -833,6 +900,7 @@
 				E2745DAE1D7FB2EC0037B941 /* main.m in Sources */,
 				E2745DEA1D7FB9310037B941 /* RootViewController.m in Sources */,
 				E2745DFC1D7FC5220037B941 /* UILabel+ContentSize.m in Sources */,
+				E2745E761D813FF70037B941 /* Case7ViewController.m in Sources */,
 				E2745E501D800E660037B941 /* Case6ViewController.m in Sources */,
 				E2745E271D7FFBDC0037B941 /* Case1Model.m in Sources */,
 			);
@@ -979,6 +1047,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PackageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.masonry.package.view;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -992,6 +1061,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PackageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.masonry.package.view;
 				PRODUCT_NAME = "$(TARGET_NAME)";

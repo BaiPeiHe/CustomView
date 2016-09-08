@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  中关村 - TableView 联动
+ */
 @interface Case4ViewController : UIViewController
 
 @end

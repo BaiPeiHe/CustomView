@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  商品分类展示
+ */
 @interface Case3ViewController : UIViewController
 
 @end

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  多限制条件检索视图 - 竖向
+ */
 @interface Case6ViewController : UIViewController
 
 @end

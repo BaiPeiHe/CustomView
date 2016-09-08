@@ -10,9 +10,8 @@
 
 #import "Masonry.h"
 
-@interface Case6ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface Case6ViewController ()
 
-@property (nonatomic, strong) UITableView *tableView;
 
 @property (nonatomic, strong) NSMutableArray *dataArr;
 
@@ -44,7 +43,7 @@
 }
 
 
-#pragma mark UITableView 协议方法
+
 
 
 @end

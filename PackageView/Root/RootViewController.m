@@ -13,6 +13,7 @@
 #import "Case4ViewController.h"
 #import "Case5ViewController.h"
 #import "Case6ViewController.h"
+#import "Case7ViewController.h"
 
 #import "Masonry.h"
 
@@ -44,7 +45,8 @@
             /* 03 */   @"Case03   商品分类展示 - TableView联动",
             /* 04 */   @"Case04   中关村 - TableView联动",
             /* 05 */   @"Case05   省市区 - TableView联动",
-            /* 06 */   @"Case06   多种限制条件检索视图",
+            /* 06 */   @"Case06   多种限制条件检索视图 - 竖向",
+            /* 07 */   @"Case07   多种限制条件检索视图 - 横向",
                                 nil];
 }
 
@@ -88,46 +90,56 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    switch (indexPath.row) {
-        case 0:{
+    
+    
+    switch (indexPath.row + 1) {
+        case 1:{
             
             Case1ViewController *case1VC = [[Case1ViewController alloc] init];
+            
             [self.navigationController pushViewController:case1VC animated:YES];
             
             break;
         }
-        case 1:{
+        case 2:{
             
             Case2ViewController *case2VC = [[Case2ViewController alloc] init];
             [self.navigationController pushViewController:case2VC animated:YES];
             
             break;
         }
-        case 2:{
+        case 3:{
             
             Case3ViewController *case3VC = [[Case3ViewController alloc] init];
             [self.navigationController pushViewController:case3VC animated:YES];
             
             break;
         }
-        case 3:{
+        case 4:{
             
             Case4ViewController *case4VC = [[Case4ViewController alloc] init];
             [self.navigationController pushViewController:case4VC animated:YES];
             
             break;
         }
-        case 4:{
+        case 5:{
             
             Case5ViewController *case5VC = [[Case5ViewController alloc] init];
             [self.navigationController pushViewController:case5VC animated:YES];
             
             break;
         }
-        case 5:{
+        case 6:{
             
             Case6ViewController *case6VC = [[Case6ViewController alloc] init];
             [self.navigationController pushViewController:case6VC animated:YES];
+            
+            break;
+        }
+        case 7:{
+            
+            Case7ViewController *case7VC = [[Case7ViewController alloc] init];
+            [self.navigationController pushViewController:case7VC animated:YES];
             
             break;
         }
