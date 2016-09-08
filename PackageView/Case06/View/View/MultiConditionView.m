@@ -95,8 +95,10 @@
     return rowsArr;
 }
 
-- (void)reloadMultiConditionView{
-    
+/**
+ *  刷新
+ */
+- (void)reloadConditionView{
     
 }
 

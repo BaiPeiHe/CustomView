@@ -17,7 +17,6 @@
 		E2745DE61D7FB8F10037B941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745DE11D7FB8F10037B941 /* AppDelegate.m */; };
 		E2745DEA1D7FB9310037B941 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745DE91D7FB9310037B941 /* RootViewController.m */; };
 		E2745DFB1D7FC5220037B941 /* NHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745DF71D7FC5220037B941 /* NHBaseModel.m */; };
-		E2745DFC1D7FC5220037B941 /* UILabel+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745DFA1D7FC5220037B941 /* UILabel+ContentSize.m */; };
 		E2745E051D7FEF600037B941 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E2745E041D7FEF600037B941 /* arrow.png */; };
 		E2745E071D7FFB520037B941 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = E2745E061D7FFB520037B941 /* head.png */; };
 		E2745E101D7FFBC60037B941 /* Case3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E0A1D7FFBC60037B941 /* Case3ViewController.m */; };
@@ -31,8 +30,11 @@
 		E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E531D800F2E0037B941 /* NetWorkingTool.m */; };
 		E2745E561D8010670037B941 /* area.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2745E551D8010670037B941 /* area.txt */; };
 		E2745E5C1D8014EA0037B941 /* MultiConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E5B1D8014EA0037B941 /* MultiConditionView.m */; };
-		E2745E661D8111A10037B941 /* ClassificationDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E651D8111A10037B941 /* ClassificationDisplayView.m */; };
 		E2745E761D813FF70037B941 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E751D813FF70037B941 /* Case7ViewController.m */; };
+		E27F65A11D8145F700D115E1 /* MultiConditionViewVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65A01D8145F700D115E1 /* MultiConditionViewVertical.m */; };
+		E27F65AC1D814EE300D115E1 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */; };
+		E27F65AF1D814EF300D115E1 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65AE1D814EF300D115E1 /* NSString+Extension.m */; };
+		E27F65B21D81534F00D115E1 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B11D81534F00D115E1 /* ItemCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +76,6 @@
 		E2745DE91D7FB9310037B941 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E2745DF61D7FC5220037B941 /* NHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseModel.h; sourceTree = "<group>"; };
 		E2745DF71D7FC5220037B941 /* NHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseModel.m; sourceTree = "<group>"; };
-		E2745DF91D7FC5220037B941 /* UILabel+ContentSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ContentSize.h"; sourceTree = "<group>"; };
-		E2745DFA1D7FC5220037B941 /* UILabel+ContentSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ContentSize.m"; sourceTree = "<group>"; };
 		E2745E041D7FEF600037B941 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		E2745E061D7FFB520037B941 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
 		E2745E091D7FFBC60037B941 /* Case3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case3ViewController.h; sourceTree = "<group>"; };
@@ -99,10 +99,16 @@
 		E2745E551D8010670037B941 /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
 		E2745E5A1D8014EA0037B941 /* MultiConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionView.h; sourceTree = "<group>"; };
 		E2745E5B1D8014EA0037B941 /* MultiConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionView.m; sourceTree = "<group>"; };
-		E2745E641D8111A10037B941 /* ClassificationDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassificationDisplayView.h; sourceTree = "<group>"; };
-		E2745E651D8111A10037B941 /* ClassificationDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassificationDisplayView.m; sourceTree = "<group>"; };
 		E2745E741D813FF70037B941 /* Case7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7ViewController.h; sourceTree = "<group>"; };
 		E2745E751D813FF70037B941 /* Case7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7ViewController.m; sourceTree = "<group>"; };
+		E27F659F1D8145F700D115E1 /* MultiConditionViewVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionViewVertical.h; sourceTree = "<group>"; };
+		E27F65A01D8145F700D115E1 /* MultiConditionViewVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionViewVertical.m; sourceTree = "<group>"; };
+		E27F65AA1D814EE300D115E1 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		E27F65AD1D814EF300D115E1 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		E27F65AE1D814EF300D115E1 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		E27F65B01D81534F00D115E1 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		E27F65B11D81534F00D115E1 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,8 +245,6 @@
 			isa = PBXGroup;
 			children = (
 				E2745E111D7FFBD30037B941 /* Controller */,
-				E2745E141D7FFBD30037B941 /* Model */,
-				E2745E151D7FFBD30037B941 /* View */,
 			);
 			path = Case02;
 			sourceTree = "<group>";
@@ -248,7 +252,6 @@
 		E2745DE41D7FB8F10037B941 /* Case03 */ = {
 			isa = PBXGroup;
 			children = (
-				E2745E601D8111A10037B941 /* ClassificationDisplayView */,
 				E2745E081D7FFBC60037B941 /* Controller */,
 				E2745E0B1D7FFBC60037B941 /* Model */,
 			);
@@ -278,9 +281,10 @@
 		E2745DF41D7FC5220037B941 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E27F65A21D814E8600D115E1 /* NSString+Extension */,
+				E27F65A31D814E8600D115E1 /* UILabel+ Extension */,
 				E2745E511D800F2E0037B941 /* NetWorkingTool */,
 				E2745DF51D7FC5220037B941 /* NHBaseModel */,
-				E2745DF81D7FC5220037B941 /* UILabel-ContentSize */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -292,15 +296,6 @@
 				E2745DF71D7FC5220037B941 /* NHBaseModel.m */,
 			);
 			path = NHBaseModel;
-			sourceTree = "<group>";
-		};
-		E2745DF81D7FC5220037B941 /* UILabel-ContentSize */ = {
-			isa = PBXGroup;
-			children = (
-				E2745DF91D7FC5220037B941 /* UILabel+ContentSize.h */,
-				E2745DFA1D7FC5220037B941 /* UILabel+ContentSize.m */,
-			);
-			path = "UILabel-ContentSize";
 			sourceTree = "<group>";
 		};
 		E2745E031D7FEF600037B941 /* Source */ = {
@@ -338,44 +333,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E2745E141D7FFBD30037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E151D7FFBD30037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E161D7FFBD30037B941 /* CollectionViewCell */,
-				E2745E171D7FFBD30037B941 /* TableViewCell */,
-				E2745E181D7FFBD30037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E161D7FFBD30037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E171D7FFBD30037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E181D7FFBD30037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		E2745E1A1D7FFBDC0037B941 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,25 +354,9 @@
 		E2745E201D7FFBDC0037B941 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E2745E211D7FFBDC0037B941 /* CollectionViewCell */,
-				E2745E221D7FFBDC0037B941 /* TableViewCell */,
 				E2745E231D7FFBDC0037B941 /* View */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E211D7FFBDC0037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E221D7FFBDC0037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		E2745E231D7FFBDC0037B941 /* View */ = {
@@ -431,8 +372,6 @@
 			isa = PBXGroup;
 			children = (
 				E2745E341D800E1A0037B941 /* Controller */,
-				E2745E371D800E1A0037B941 /* Model */,
-				E2745E381D800E1A0037B941 /* View */,
 			);
 			path = Case04;
 			sourceTree = "<group>";
@@ -446,50 +385,11 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E2745E371D800E1A0037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E381D800E1A0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E391D800E1A0037B941 /* CollectionViewCell */,
-				E2745E3A1D800E1A0037B941 /* TableViewCell */,
-				E2745E3B1D800E1A0037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E391D800E1A0037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E3A1D800E1A0037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E3B1D800E1A0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		E2745E3C1D800E1A0037B941 /* Case05 */ = {
 			isa = PBXGroup;
 			children = (
 				E2745E3D1D800E1A0037B941 /* Controller */,
 				E2745E3E1D800E1A0037B941 /* Model */,
-				E2745E3F1D800E1A0037B941 /* View */,
 			);
 			path = Case05;
 			sourceTree = "<group>";
@@ -508,37 +408,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E3F1D800E1A0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E401D800E1A0037B941 /* CollectionViewCell */,
-				E2745E411D800E1A0037B941 /* TableViewCell */,
-				E2745E421D800E1A0037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E401D800E1A0037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E411D800E1A0037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E421D800E1A0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		E2745E431D800E1A0037B941 /* Case06 */ = {
@@ -609,39 +478,6 @@
 			path = NetWorkingTool;
 			sourceTree = "<group>";
 		};
-		E2745E601D8111A10037B941 /* ClassificationDisplayView */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E611D8111A10037B941 /* CollectionViewCell */,
-				E2745E621D8111A10037B941 /* TableViewCell */,
-				E2745E631D8111A10037B941 /* View */,
-			);
-			path = ClassificationDisplayView;
-			sourceTree = "<group>";
-		};
-		E2745E611D8111A10037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E621D8111A10037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E631D8111A10037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E641D8111A10037B941 /* ClassificationDisplayView.h */,
-				E2745E651D8111A10037B941 /* ClassificationDisplayView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		E2745E671D813F090037B941 /* Case07 */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +517,8 @@
 		E2745E6B1D813F090037B941 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				E27F65B01D81534F00D115E1 /* ItemCollectionViewCell.h */,
+				E27F65B11D81534F00D115E1 /* ItemCollectionViewCell.m */,
 			);
 			path = CollectionViewCell;
 			sourceTree = "<group>";
@@ -695,8 +533,28 @@
 		E2745E6D1D813F090037B941 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E27F659F1D8145F700D115E1 /* MultiConditionViewVertical.h */,
+				E27F65A01D8145F700D115E1 /* MultiConditionViewVertical.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E27F65A21D814E8600D115E1 /* NSString+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65AD1D814EF300D115E1 /* NSString+Extension.h */,
+				E27F65AE1D814EF300D115E1 /* NSString+Extension.m */,
+			);
+			path = "NSString+Extension";
+			sourceTree = "<group>";
+		};
+		E27F65A31D814E8600D115E1 /* UILabel+ Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65AA1D814EE300D115E1 /* UILabel+Extension.h */,
+				E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */,
+			);
+			path = "UILabel+ Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -886,11 +744,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27F65AC1D814EE300D115E1 /* UILabel+Extension.m in Sources */,
 				E2745E4A1D800E1A0037B941 /* Case4ViewController.m in Sources */,
 				E2745DE61D7FB8F10037B941 /* AppDelegate.m in Sources */,
 				E2745DFB1D7FC5220037B941 /* NHBaseModel.m in Sources */,
-				E2745E661D8111A10037B941 /* ClassificationDisplayView.m in Sources */,
+				E27F65B21D81534F00D115E1 /* ItemCollectionViewCell.m in Sources */,
 				E2745E5C1D8014EA0037B941 /* MultiConditionView.m in Sources */,
+				E27F65AF1D814EF300D115E1 /* NSString+Extension.m in Sources */,
 				E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */,
 				E2745E281D7FFBDC0037B941 /* Case1HeadView.m in Sources */,
 				E2745E4D1D800E520037B941 /* Case5ViewController.m in Sources */,
@@ -898,8 +758,8 @@
 				E2745E101D7FFBC60037B941 /* Case3ViewController.m in Sources */,
 				E2745E261D7FFBDC0037B941 /* Case1ViewController.m in Sources */,
 				E2745DAE1D7FB2EC0037B941 /* main.m in Sources */,
+				E27F65A11D8145F700D115E1 /* MultiConditionViewVertical.m in Sources */,
 				E2745DEA1D7FB9310037B941 /* RootViewController.m in Sources */,
-				E2745DFC1D7FC5220037B941 /* UILabel+ContentSize.m in Sources */,
 				E2745E761D813FF70037B941 /* Case7ViewController.m in Sources */,
 				E2745E501D800E660037B941 /* Case6ViewController.m in Sources */,
 				E2745E271D7FFBDC0037B941 /* Case1Model.m in Sources */,

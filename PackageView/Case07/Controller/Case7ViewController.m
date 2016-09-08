@@ -10,4 +10,27 @@
 
 @implementation Case7ViewController
 
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    
+    
+    [self createData];
+    
+    [self createView];
+}
+
+- (void)createData{
+    
+    
+    
+}
+
+
+- (void)createView{
+    
+    
+    
+}
+
 @end

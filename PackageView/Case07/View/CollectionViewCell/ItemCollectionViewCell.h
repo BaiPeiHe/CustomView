@@ -1,13 +1,13 @@
 //
-//  ClassificationDisplayView.m
+//  ItemCollectionViewCell.h
 //  PackageView
 //
 //  Created by 白鹤 on 16/9/8.
 //  Copyright © 2016年 白鹤. All rights reserved.
 //
 
-#import "ClassificationDisplayView.h"
+#import <UIKit/UIKit.h>
 
-@implementation ClassificationDisplayView
+@interface ItemCollectionViewCell : UICollectionViewCell
 
 @end

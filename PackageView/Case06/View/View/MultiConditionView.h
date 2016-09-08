@@ -49,6 +49,6 @@
 /**
  *  刷新
  */
-- (void)reloadMultiConditionView;
+- (void)reloadConditionView;
 
 @end
