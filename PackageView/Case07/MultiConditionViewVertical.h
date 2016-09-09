@@ -27,19 +27,23 @@
  */
 - (NSString *)multiConditionView:(MultiConditionViewVertical *)multiConditionView titlleForItemAtSection:(NSInteger)section Item:(NSInteger)item;
 
+/**
+ *  点击方法
+ */
+- (void)multiConditionView:(MultiConditionViewVertical *)multiConditionView didSelectItemAtSection:(NSInteger)section Item:(NSInteger)item;
+
+
 @end
 
 @interface MultiConditionViewVertical : UIView
 
-
-@property (nonatomic, assign)id<MultiConditionViewDelegate>delegate;
 
 /**
  *  初始化,最初的尺寸
  *
  *  @param frame 最初尺寸
  */
-- (instancetype)initWithFrame:(CGRect)frame;
+- (instancetype)initWithFrame:(CGRect)frame Delegate:(id<MultiConditionViewDelegate>)delegate;
 
 
 /**

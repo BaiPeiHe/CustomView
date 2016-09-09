@@ -19,22 +19,22 @@
 		E2745DFB1D7FC5220037B941 /* NHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745DF71D7FC5220037B941 /* NHBaseModel.m */; };
 		E2745E051D7FEF600037B941 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E2745E041D7FEF600037B941 /* arrow.png */; };
 		E2745E071D7FFB520037B941 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = E2745E061D7FFB520037B941 /* head.png */; };
-		E2745E101D7FFBC60037B941 /* Case3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E0A1D7FFBC60037B941 /* Case3ViewController.m */; };
-		E2745E191D7FFBD30037B941 /* Case2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E131D7FFBD30037B941 /* Case2ViewController.m */; };
-		E2745E261D7FFBDC0037B941 /* Case1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E1C1D7FFBDC0037B941 /* Case1ViewController.m */; };
-		E2745E271D7FFBDC0037B941 /* Case1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E1F1D7FFBDC0037B941 /* Case1Model.m */; };
-		E2745E281D7FFBDC0037B941 /* Case1HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E251D7FFBDC0037B941 /* Case1HeadView.m */; };
-		E2745E4A1D800E1A0037B941 /* Case4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E361D800E1A0037B941 /* Case4ViewController.m */; };
-		E2745E4D1D800E520037B941 /* Case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E4C1D800E520037B941 /* Case5ViewController.m */; };
-		E2745E501D800E660037B941 /* Case6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E4F1D800E660037B941 /* Case6ViewController.m */; };
 		E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E531D800F2E0037B941 /* NetWorkingTool.m */; };
 		E2745E561D8010670037B941 /* area.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2745E551D8010670037B941 /* area.txt */; };
-		E2745E5C1D8014EA0037B941 /* MultiConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E5B1D8014EA0037B941 /* MultiConditionView.m */; };
-		E2745E761D813FF70037B941 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E751D813FF70037B941 /* Case7ViewController.m */; };
-		E27F65A11D8145F700D115E1 /* MultiConditionViewVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65A01D8145F700D115E1 /* MultiConditionViewVertical.m */; };
 		E27F65AC1D814EE300D115E1 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */; };
 		E27F65AF1D814EF300D115E1 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65AE1D814EF300D115E1 /* NSString+Extension.m */; };
-		E27F65B21D81534F00D115E1 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B11D81534F00D115E1 /* ItemCollectionViewCell.m */; };
+		E27F65D21D8155E800D115E1 /* Case1HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B51D8155E800D115E1 /* Case1HeadView.m */; };
+		E27F65D31D8155E800D115E1 /* Case1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B71D8155E800D115E1 /* Case1Model.m */; };
+		E27F65D41D8155E800D115E1 /* Case1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B91D8155E800D115E1 /* Case1ViewController.m */; };
+		E27F65D51D8155E800D115E1 /* Case2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65BC1D8155E800D115E1 /* Case2ViewController.m */; };
+		E27F65D61D8155E800D115E1 /* Case3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65BF1D8155E800D115E1 /* Case3ViewController.m */; };
+		E27F65D71D8155E800D115E1 /* Case4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65C21D8155E800D115E1 /* Case4ViewController.m */; };
+		E27F65D81D8155E800D115E1 /* Case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65C51D8155E800D115E1 /* Case5ViewController.m */; };
+		E27F65D91D8155E800D115E1 /* Case6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65C81D8155E800D115E1 /* Case6ViewController.m */; };
+		E27F65DA1D8155E800D115E1 /* MultiConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65CA1D8155E800D115E1 /* MultiConditionView.m */; };
+		E27F65DB1D8155E800D115E1 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65CD1D8155E800D115E1 /* Case7ViewController.m */; };
+		E27F65DC1D8155E800D115E1 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65CF1D8155E800D115E1 /* ItemCollectionViewCell.m */; };
+		E27F65DD1D8155E800D115E1 /* MultiConditionViewVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65D11D8155E800D115E1 /* MultiConditionViewVertical.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,37 +78,37 @@
 		E2745DF71D7FC5220037B941 /* NHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseModel.m; sourceTree = "<group>"; };
 		E2745E041D7FEF600037B941 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		E2745E061D7FFB520037B941 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
-		E2745E091D7FFBC60037B941 /* Case3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case3ViewController.h; sourceTree = "<group>"; };
-		E2745E0A1D7FFBC60037B941 /* Case3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case3ViewController.m; sourceTree = "<group>"; };
-		E2745E121D7FFBD30037B941 /* Case2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case2ViewController.h; sourceTree = "<group>"; };
-		E2745E131D7FFBD30037B941 /* Case2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case2ViewController.m; sourceTree = "<group>"; };
-		E2745E1B1D7FFBDC0037B941 /* Case1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1ViewController.h; sourceTree = "<group>"; };
-		E2745E1C1D7FFBDC0037B941 /* Case1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1ViewController.m; sourceTree = "<group>"; };
-		E2745E1E1D7FFBDC0037B941 /* Case1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1Model.h; sourceTree = "<group>"; };
-		E2745E1F1D7FFBDC0037B941 /* Case1Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1Model.m; sourceTree = "<group>"; };
-		E2745E241D7FFBDC0037B941 /* Case1HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1HeadView.h; sourceTree = "<group>"; };
-		E2745E251D7FFBDC0037B941 /* Case1HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1HeadView.m; sourceTree = "<group>"; };
-		E2745E351D800E1A0037B941 /* Case4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case4ViewController.h; sourceTree = "<group>"; };
-		E2745E361D800E1A0037B941 /* Case4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4ViewController.m; sourceTree = "<group>"; };
-		E2745E4B1D800E520037B941 /* Case5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5ViewController.h; sourceTree = "<group>"; };
-		E2745E4C1D800E520037B941 /* Case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5ViewController.m; sourceTree = "<group>"; };
-		E2745E4E1D800E660037B941 /* Case6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6ViewController.h; sourceTree = "<group>"; };
-		E2745E4F1D800E660037B941 /* Case6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6ViewController.m; sourceTree = "<group>"; };
 		E2745E521D800F2E0037B941 /* NetWorkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingTool.h; sourceTree = "<group>"; };
 		E2745E531D800F2E0037B941 /* NetWorkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingTool.m; sourceTree = "<group>"; };
 		E2745E551D8010670037B941 /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
-		E2745E5A1D8014EA0037B941 /* MultiConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionView.h; sourceTree = "<group>"; };
-		E2745E5B1D8014EA0037B941 /* MultiConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionView.m; sourceTree = "<group>"; };
-		E2745E741D813FF70037B941 /* Case7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7ViewController.h; sourceTree = "<group>"; };
-		E2745E751D813FF70037B941 /* Case7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7ViewController.m; sourceTree = "<group>"; };
-		E27F659F1D8145F700D115E1 /* MultiConditionViewVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionViewVertical.h; sourceTree = "<group>"; };
-		E27F65A01D8145F700D115E1 /* MultiConditionViewVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionViewVertical.m; sourceTree = "<group>"; };
 		E27F65AA1D814EE300D115E1 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		E27F65AD1D814EF300D115E1 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		E27F65AE1D814EF300D115E1 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		E27F65B01D81534F00D115E1 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
-		E27F65B11D81534F00D115E1 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
+		E27F65B41D8155E800D115E1 /* Case1HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1HeadView.h; sourceTree = "<group>"; };
+		E27F65B51D8155E800D115E1 /* Case1HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1HeadView.m; sourceTree = "<group>"; };
+		E27F65B61D8155E800D115E1 /* Case1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1Model.h; sourceTree = "<group>"; };
+		E27F65B71D8155E800D115E1 /* Case1Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1Model.m; sourceTree = "<group>"; };
+		E27F65B81D8155E800D115E1 /* Case1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1ViewController.h; sourceTree = "<group>"; };
+		E27F65B91D8155E800D115E1 /* Case1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1ViewController.m; sourceTree = "<group>"; };
+		E27F65BB1D8155E800D115E1 /* Case2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case2ViewController.h; sourceTree = "<group>"; };
+		E27F65BC1D8155E800D115E1 /* Case2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case2ViewController.m; sourceTree = "<group>"; };
+		E27F65BE1D8155E800D115E1 /* Case3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case3ViewController.h; sourceTree = "<group>"; };
+		E27F65BF1D8155E800D115E1 /* Case3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case3ViewController.m; sourceTree = "<group>"; };
+		E27F65C11D8155E800D115E1 /* Case4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case4ViewController.h; sourceTree = "<group>"; };
+		E27F65C21D8155E800D115E1 /* Case4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4ViewController.m; sourceTree = "<group>"; };
+		E27F65C41D8155E800D115E1 /* Case5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5ViewController.h; sourceTree = "<group>"; };
+		E27F65C51D8155E800D115E1 /* Case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5ViewController.m; sourceTree = "<group>"; };
+		E27F65C71D8155E800D115E1 /* Case6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6ViewController.h; sourceTree = "<group>"; };
+		E27F65C81D8155E800D115E1 /* Case6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6ViewController.m; sourceTree = "<group>"; };
+		E27F65C91D8155E800D115E1 /* MultiConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionView.h; sourceTree = "<group>"; };
+		E27F65CA1D8155E800D115E1 /* MultiConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionView.m; sourceTree = "<group>"; };
+		E27F65CC1D8155E800D115E1 /* Case7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7ViewController.h; sourceTree = "<group>"; };
+		E27F65CD1D8155E800D115E1 /* Case7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7ViewController.m; sourceTree = "<group>"; };
+		E27F65CE1D8155E800D115E1 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		E27F65CF1D8155E800D115E1 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
+		E27F65D01D8155E800D115E1 /* MultiConditionViewVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionViewVertical.h; sourceTree = "<group>"; };
+		E27F65D11D8155E800D115E1 /* MultiConditionViewVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionViewVertical.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,13 +183,13 @@
 				E2745DF41D7FC5220037B941 /* Tools */,
 				E2745DDF1D7FB8F10037B941 /* Application */,
 				E2745DE51D7FB8F10037B941 /* Root */,
-				E2745DE21D7FB8F10037B941 /* Case01 */,
-				E2745DE31D7FB8F10037B941 /* Case02 */,
-				E2745DE41D7FB8F10037B941 /* Case03 */,
-				E2745E331D800E1A0037B941 /* Case04 */,
-				E2745E3C1D800E1A0037B941 /* Case05 */,
-				E2745E431D800E1A0037B941 /* Case06 */,
-				E2745E671D813F090037B941 /* Case07 */,
+				E27F65B31D8155E800D115E1 /* Case01 */,
+				E27F65BA1D8155E800D115E1 /* Case02 */,
+				E27F65BD1D8155E800D115E1 /* Case03 */,
+				E27F65C01D8155E800D115E1 /* Case04 */,
+				E27F65C31D8155E800D115E1 /* Case05 */,
+				E27F65C61D8155E800D115E1 /* Case06 */,
+				E27F65CB1D8155E800D115E1 /* Case07 */,
 				E2745DE71D7FB8FE0037B941 /* Others */,
 				E2745DAC1D7FB2EC0037B941 /* Supporting Files */,
 			);
@@ -229,33 +229,6 @@
 				E2745DE11D7FB8F10037B941 /* AppDelegate.m */,
 			);
 			path = Application;
-			sourceTree = "<group>";
-		};
-		E2745DE21D7FB8F10037B941 /* Case01 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E1A1D7FFBDC0037B941 /* Controller */,
-				E2745E1D1D7FFBDC0037B941 /* Model */,
-				E2745E201D7FFBDC0037B941 /* View */,
-			);
-			path = Case01;
-			sourceTree = "<group>";
-		};
-		E2745DE31D7FB8F10037B941 /* Case02 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E111D7FFBD30037B941 /* Controller */,
-			);
-			path = Case02;
-			sourceTree = "<group>";
-		};
-		E2745DE41D7FB8F10037B941 /* Case03 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E081D7FFBC60037B941 /* Controller */,
-				E2745E0B1D7FFBC60037B941 /* Model */,
-			);
-			path = Case03;
 			sourceTree = "<group>";
 		};
 		E2745DE51D7FB8F10037B941 /* Root */ = {
@@ -308,167 +281,6 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		E2745E081D7FFBC60037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E091D7FFBC60037B941 /* Case3ViewController.h */,
-				E2745E0A1D7FFBC60037B941 /* Case3ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E0B1D7FFBC60037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E111D7FFBD30037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E121D7FFBD30037B941 /* Case2ViewController.h */,
-				E2745E131D7FFBD30037B941 /* Case2ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E1A1D7FFBDC0037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E1B1D7FFBDC0037B941 /* Case1ViewController.h */,
-				E2745E1C1D7FFBDC0037B941 /* Case1ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E1D1D7FFBDC0037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E1E1D7FFBDC0037B941 /* Case1Model.h */,
-				E2745E1F1D7FFBDC0037B941 /* Case1Model.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E201D7FFBDC0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E231D7FFBDC0037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E231D7FFBDC0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E241D7FFBDC0037B941 /* Case1HeadView.h */,
-				E2745E251D7FFBDC0037B941 /* Case1HeadView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E331D800E1A0037B941 /* Case04 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E341D800E1A0037B941 /* Controller */,
-			);
-			path = Case04;
-			sourceTree = "<group>";
-		};
-		E2745E341D800E1A0037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E351D800E1A0037B941 /* Case4ViewController.h */,
-				E2745E361D800E1A0037B941 /* Case4ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E3C1D800E1A0037B941 /* Case05 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E3D1D800E1A0037B941 /* Controller */,
-				E2745E3E1D800E1A0037B941 /* Model */,
-			);
-			path = Case05;
-			sourceTree = "<group>";
-		};
-		E2745E3D1D800E1A0037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E4B1D800E520037B941 /* Case5ViewController.h */,
-				E2745E4C1D800E520037B941 /* Case5ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E3E1D800E1A0037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E431D800E1A0037B941 /* Case06 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E441D800E1A0037B941 /* Controller */,
-				E2745E451D800E1A0037B941 /* Model */,
-				E2745E461D800E1A0037B941 /* View */,
-			);
-			path = Case06;
-			sourceTree = "<group>";
-		};
-		E2745E441D800E1A0037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E4E1D800E660037B941 /* Case6ViewController.h */,
-				E2745E4F1D800E660037B941 /* Case6ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E451D800E1A0037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E461D800E1A0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E471D800E1A0037B941 /* CollectionViewCell */,
-				E2745E481D800E1A0037B941 /* TableViewCell */,
-				E2745E491D800E1A0037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E471D800E1A0037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E481D800E1A0037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E491D800E1A0037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E5A1D8014EA0037B941 /* MultiConditionView.h */,
-				E2745E5B1D8014EA0037B941 /* MultiConditionView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		E2745E511D800F2E0037B941 /* NetWorkingTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,67 +288,6 @@
 				E2745E531D800F2E0037B941 /* NetWorkingTool.m */,
 			);
 			path = NetWorkingTool;
-			sourceTree = "<group>";
-		};
-		E2745E671D813F090037B941 /* Case07 */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E681D813F090037B941 /* Controller */,
-				E2745E691D813F090037B941 /* Model */,
-				E2745E6A1D813F090037B941 /* View */,
-			);
-			path = Case07;
-			sourceTree = "<group>";
-		};
-		E2745E681D813F090037B941 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E741D813FF70037B941 /* Case7ViewController.h */,
-				E2745E751D813FF70037B941 /* Case7ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2745E691D813F090037B941 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2745E6A1D813F090037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E2745E6B1D813F090037B941 /* CollectionViewCell */,
-				E2745E6C1D813F090037B941 /* TableViewCell */,
-				E2745E6D1D813F090037B941 /* View */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E2745E6B1D813F090037B941 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				E27F65B01D81534F00D115E1 /* ItemCollectionViewCell.h */,
-				E27F65B11D81534F00D115E1 /* ItemCollectionViewCell.m */,
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E6C1D813F090037B941 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		E2745E6D1D813F090037B941 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E27F659F1D8145F700D115E1 /* MultiConditionViewVertical.h */,
-				E27F65A01D8145F700D115E1 /* MultiConditionViewVertical.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		E27F65A21D814E8600D115E1 /* NSString+Extension */ = {
@@ -555,6 +306,79 @@
 				E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */,
 			);
 			path = "UILabel+ Extension";
+			sourceTree = "<group>";
+		};
+		E27F65B31D8155E800D115E1 /* Case01 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65B41D8155E800D115E1 /* Case1HeadView.h */,
+				E27F65B51D8155E800D115E1 /* Case1HeadView.m */,
+				E27F65B61D8155E800D115E1 /* Case1Model.h */,
+				E27F65B71D8155E800D115E1 /* Case1Model.m */,
+				E27F65B81D8155E800D115E1 /* Case1ViewController.h */,
+				E27F65B91D8155E800D115E1 /* Case1ViewController.m */,
+			);
+			path = Case01;
+			sourceTree = "<group>";
+		};
+		E27F65BA1D8155E800D115E1 /* Case02 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65BB1D8155E800D115E1 /* Case2ViewController.h */,
+				E27F65BC1D8155E800D115E1 /* Case2ViewController.m */,
+			);
+			path = Case02;
+			sourceTree = "<group>";
+		};
+		E27F65BD1D8155E800D115E1 /* Case03 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65BE1D8155E800D115E1 /* Case3ViewController.h */,
+				E27F65BF1D8155E800D115E1 /* Case3ViewController.m */,
+			);
+			path = Case03;
+			sourceTree = "<group>";
+		};
+		E27F65C01D8155E800D115E1 /* Case04 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65C11D8155E800D115E1 /* Case4ViewController.h */,
+				E27F65C21D8155E800D115E1 /* Case4ViewController.m */,
+			);
+			path = Case04;
+			sourceTree = "<group>";
+		};
+		E27F65C31D8155E800D115E1 /* Case05 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65C41D8155E800D115E1 /* Case5ViewController.h */,
+				E27F65C51D8155E800D115E1 /* Case5ViewController.m */,
+			);
+			path = Case05;
+			sourceTree = "<group>";
+		};
+		E27F65C61D8155E800D115E1 /* Case06 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65C71D8155E800D115E1 /* Case6ViewController.h */,
+				E27F65C81D8155E800D115E1 /* Case6ViewController.m */,
+				E27F65C91D8155E800D115E1 /* MultiConditionView.h */,
+				E27F65CA1D8155E800D115E1 /* MultiConditionView.m */,
+			);
+			path = Case06;
+			sourceTree = "<group>";
+		};
+		E27F65CB1D8155E800D115E1 /* Case07 */ = {
+			isa = PBXGroup;
+			children = (
+				E27F65CC1D8155E800D115E1 /* Case7ViewController.h */,
+				E27F65CD1D8155E800D115E1 /* Case7ViewController.m */,
+				E27F65CE1D8155E800D115E1 /* ItemCollectionViewCell.h */,
+				E27F65CF1D8155E800D115E1 /* ItemCollectionViewCell.m */,
+				E27F65D01D8155E800D115E1 /* MultiConditionViewVertical.h */,
+				E27F65D11D8155E800D115E1 /* MultiConditionViewVertical.m */,
+			);
+			path = Case07;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -744,25 +568,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27F65D91D8155E800D115E1 /* Case6ViewController.m in Sources */,
 				E27F65AC1D814EE300D115E1 /* UILabel+Extension.m in Sources */,
-				E2745E4A1D800E1A0037B941 /* Case4ViewController.m in Sources */,
 				E2745DE61D7FB8F10037B941 /* AppDelegate.m in Sources */,
+				E27F65D61D8155E800D115E1 /* Case3ViewController.m in Sources */,
 				E2745DFB1D7FC5220037B941 /* NHBaseModel.m in Sources */,
-				E27F65B21D81534F00D115E1 /* ItemCollectionViewCell.m in Sources */,
-				E2745E5C1D8014EA0037B941 /* MultiConditionView.m in Sources */,
 				E27F65AF1D814EF300D115E1 /* NSString+Extension.m in Sources */,
+				E27F65DD1D8155E800D115E1 /* MultiConditionViewVertical.m in Sources */,
+				E27F65D21D8155E800D115E1 /* Case1HeadView.m in Sources */,
+				E27F65DB1D8155E800D115E1 /* Case7ViewController.m in Sources */,
+				E27F65D71D8155E800D115E1 /* Case4ViewController.m in Sources */,
+				E27F65D51D8155E800D115E1 /* Case2ViewController.m in Sources */,
 				E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */,
-				E2745E281D7FFBDC0037B941 /* Case1HeadView.m in Sources */,
-				E2745E4D1D800E520037B941 /* Case5ViewController.m in Sources */,
-				E2745E191D7FFBD30037B941 /* Case2ViewController.m in Sources */,
-				E2745E101D7FFBC60037B941 /* Case3ViewController.m in Sources */,
-				E2745E261D7FFBDC0037B941 /* Case1ViewController.m in Sources */,
 				E2745DAE1D7FB2EC0037B941 /* main.m in Sources */,
-				E27F65A11D8145F700D115E1 /* MultiConditionViewVertical.m in Sources */,
 				E2745DEA1D7FB9310037B941 /* RootViewController.m in Sources */,
-				E2745E761D813FF70037B941 /* Case7ViewController.m in Sources */,
-				E2745E501D800E660037B941 /* Case6ViewController.m in Sources */,
-				E2745E271D7FFBDC0037B941 /* Case1Model.m in Sources */,
+				E27F65DC1D8155E800D115E1 /* ItemCollectionViewCell.m in Sources */,
+				E27F65DA1D8155E800D115E1 /* MultiConditionView.m in Sources */,
+				E27F65D41D8155E800D115E1 /* Case1ViewController.m in Sources */,
+				E27F65D81D8155E800D115E1 /* Case5ViewController.m in Sources */,
+				E27F65D31D8155E800D115E1 /* Case1Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
