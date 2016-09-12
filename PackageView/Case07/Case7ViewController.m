@@ -8,6 +8,7 @@
 
 #import "Case7ViewController.h"
 #import "MultiConditionViewVertical.h"
+#import "UIButton+Extension.h"
 
 @interface Case7ViewController ()<MultiConditionViewDelegate>
 
@@ -42,11 +43,11 @@
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    self.conditionView = [[MultiConditionViewVertical alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 40) Delegate:self];
+    self.conditionView = [[MultiConditionViewVertical alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 40) Delegate:self];
     self.conditionView.backgroundColor = [UIColor yellowColor];
+//    self.conditionView.alpha = 0.6;
     
     [self.view addSubview:self.conditionView];
-    
 }
 
 #pragma mark ConditionView 协议方法
@@ -85,6 +86,12 @@
     
 }
 
+
+- (void)btAction{
+    
+    NSLog(@"点击");
+    
+}
 
 
 @end

@@ -21,7 +21,6 @@
 		E2745E071D7FFB520037B941 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = E2745E061D7FFB520037B941 /* head.png */; };
 		E2745E541D800F2E0037B941 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E2745E531D800F2E0037B941 /* NetWorkingTool.m */; };
 		E2745E561D8010670037B941 /* area.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2745E551D8010670037B941 /* area.txt */; };
-		E27F65AC1D814EE300D115E1 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */; };
 		E27F65AF1D814EF300D115E1 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65AE1D814EF300D115E1 /* NSString+Extension.m */; };
 		E27F65D21D8155E800D115E1 /* Case1HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B51D8155E800D115E1 /* Case1HeadView.m */; };
 		E27F65D31D8155E800D115E1 /* Case1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65B71D8155E800D115E1 /* Case1Model.m */; };
@@ -35,6 +34,8 @@
 		E27F65DB1D8155E800D115E1 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65CD1D8155E800D115E1 /* Case7ViewController.m */; };
 		E27F65DC1D8155E800D115E1 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65CF1D8155E800D115E1 /* ItemCollectionViewCell.m */; };
 		E27F65DD1D8155E800D115E1 /* MultiConditionViewVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F65D11D8155E800D115E1 /* MultiConditionViewVertical.m */; };
+		E2F777701D865A2800C14481 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F7776F1D865A2800C14481 /* UIButton+Extension.m */; };
+		E2F777741D865B8A00C14481 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F777731D865B8A00C14481 /* UILabel+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +82,6 @@
 		E2745E521D800F2E0037B941 /* NetWorkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingTool.h; sourceTree = "<group>"; };
 		E2745E531D800F2E0037B941 /* NetWorkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingTool.m; sourceTree = "<group>"; };
 		E2745E551D8010670037B941 /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
-		E27F65AA1D814EE300D115E1 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
-		E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		E27F65AD1D814EF300D115E1 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		E27F65AE1D814EF300D115E1 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		E27F65B41D8155E800D115E1 /* Case1HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1HeadView.h; sourceTree = "<group>"; };
@@ -109,6 +108,10 @@
 		E27F65CF1D8155E800D115E1 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
 		E27F65D01D8155E800D115E1 /* MultiConditionViewVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConditionViewVertical.h; sourceTree = "<group>"; };
 		E27F65D11D8155E800D115E1 /* MultiConditionViewVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConditionViewVertical.m; sourceTree = "<group>"; };
+		E2F7776E1D865A2800C14481 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		E2F7776F1D865A2800C14481 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		E2F777721D865B8A00C14481 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		E2F777731D865B8A00C14481 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,8 +257,9 @@
 		E2745DF41D7FC5220037B941 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E2F777711D865B8A00C14481 /* UILabel + Extension */,
+				E2F7776D1D865A1700C14481 /* UIButton+Extension */,
 				E27F65A21D814E8600D115E1 /* NSString+Extension */,
-				E27F65A31D814E8600D115E1 /* UILabel+ Extension */,
 				E2745E511D800F2E0037B941 /* NetWorkingTool */,
 				E2745DF51D7FC5220037B941 /* NHBaseModel */,
 			);
@@ -297,15 +301,6 @@
 				E27F65AE1D814EF300D115E1 /* NSString+Extension.m */,
 			);
 			path = "NSString+Extension";
-			sourceTree = "<group>";
-		};
-		E27F65A31D814E8600D115E1 /* UILabel+ Extension */ = {
-			isa = PBXGroup;
-			children = (
-				E27F65AA1D814EE300D115E1 /* UILabel+Extension.h */,
-				E27F65AB1D814EE300D115E1 /* UILabel+Extension.m */,
-			);
-			path = "UILabel+ Extension";
 			sourceTree = "<group>";
 		};
 		E27F65B31D8155E800D115E1 /* Case01 */ = {
@@ -379,6 +374,24 @@
 				E27F65D11D8155E800D115E1 /* MultiConditionViewVertical.m */,
 			);
 			path = Case07;
+			sourceTree = "<group>";
+		};
+		E2F7776D1D865A1700C14481 /* UIButton+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7776E1D865A2800C14481 /* UIButton+Extension.h */,
+				E2F7776F1D865A2800C14481 /* UIButton+Extension.m */,
+			);
+			path = "UIButton+Extension";
+			sourceTree = "<group>";
+		};
+		E2F777711D865B8A00C14481 /* UILabel + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E2F777721D865B8A00C14481 /* UILabel+Extension.h */,
+				E2F777731D865B8A00C14481 /* UILabel+Extension.m */,
+			);
+			path = "UILabel + Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,13 +582,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27F65D91D8155E800D115E1 /* Case6ViewController.m in Sources */,
-				E27F65AC1D814EE300D115E1 /* UILabel+Extension.m in Sources */,
 				E2745DE61D7FB8F10037B941 /* AppDelegate.m in Sources */,
 				E27F65D61D8155E800D115E1 /* Case3ViewController.m in Sources */,
 				E2745DFB1D7FC5220037B941 /* NHBaseModel.m in Sources */,
+				E2F777701D865A2800C14481 /* UIButton+Extension.m in Sources */,
 				E27F65AF1D814EF300D115E1 /* NSString+Extension.m in Sources */,
 				E27F65DD1D8155E800D115E1 /* MultiConditionViewVertical.m in Sources */,
 				E27F65D21D8155E800D115E1 /* Case1HeadView.m in Sources */,
+				E2F777741D865B8A00C14481 /* UILabel+Extension.m in Sources */,
 				E27F65DB1D8155E800D115E1 /* Case7ViewController.m in Sources */,
 				E27F65D71D8155E800D115E1 /* Case4ViewController.m in Sources */,
 				E27F65D51D8155E800D115E1 /* Case2ViewController.m in Sources */,

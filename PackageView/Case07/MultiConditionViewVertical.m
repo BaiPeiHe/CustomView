@@ -9,13 +9,28 @@
 #define ITEM_HEIGHT 30
 #define ITEM_WIDTH 60
 
+#define BOTTOM_HEIGHT 10
+
 #define VIEW_WIDTH self.frame.size.width
 
 #import "MultiConditionViewVertical.h"
 #import "ItemCollectionViewCell.h"
 #import "NSString+Extension.h"
+#import "UIButton+Extension.h"
 
 @interface MultiConditionViewVertical ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
+/**
+ *  条件视图
+ */
+@property (nonatomic, strong)UIView *conditionView;
+
+/**
+ *  底部视图
+ */
+@property (nonatomic, strong)UIButton *bottom;
+
+
 
 /**
  *  分区数
@@ -85,7 +100,11 @@
 
 - (void)createView{
     
-    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, ITEM_HEIGHT * self.section);
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, ITEM_HEIGHT * self.section + BOTTOM_HEIGHT);
+    
+    // 条件视图
+    self.conditionView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, VIEW_WIDTH, ITEM_HEIGHT * self.section)];
+    [self addSubview:self.conditionView];
     
     for(NSInteger i = 0; i < self.section; i++){
         
@@ -100,7 +119,7 @@
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         
         UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, i * ITEM_HEIGHT, VIEW_WIDTH, ITEM_HEIGHT) collectionViewLayout:flowLayout];
-        [self addSubview:collectionView];
+        [self.conditionView addSubview:collectionView];
         // 平行
         collectionView.showsHorizontalScrollIndicator = NO;
         
@@ -112,7 +131,24 @@
         collectionView.tag = i + 1000;
         
         [collectionView registerClass:[ItemCollectionViewCell class] forCellWithReuseIdentifier:NSStringFromClass([ItemCollectionViewCell class])];
+        
+        // 分割线
+        UIView *slipe = [[UIView alloc] initWithFrame:CGRectMake(0, (i + 1) * ITEM_HEIGHT, VIEW_WIDTH, 1)];
+        slipe.backgroundColor = [UIColor colorWithRed:243 / 255.0 green:243 / 255.0 blue:243 / 255.0 alpha:1];
+        [self.conditionView addSubview:slipe];
     }
+    
+    // 底部
+    self.bottom = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.bottom.frame = CGRectMake(0, ITEM_HEIGHT * self.section, 50, BOTTOM_HEIGHT);
+    self.bottom.center = CGPointMake(self.frame.size.width / 2, self.bottom.center.y);
+    
+    [self.bottom addTarget:self action:@selector(bottomAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:self.bottom];
+    
+    [self.bottom setHitEdgeInsets:UIEdgeInsetsMake(-20, -10, -20, -10)];
+    
+    self.bottom.backgroundColor = [UIColor brownColor];
 }
 
 #pragma mark UICollectionView 的协议方法
@@ -185,6 +221,44 @@
 }
 
 
+- (void)bottomAction:(UIButton *)sender{
+    
+    NSLog(@"点击");
+    
+    if(!sender.selected){
+        
+        [UIView animateWithDuration:0.3 animations:^{
+            
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, BOTTOM_HEIGHT);
+            
+            self.conditionView.alpha = 0;
+            
+            sender.frame = CGRectMake(0, 0, sender.frame.size.width, sender.frame.size.height);
+            sender.center = CGPointMake(self.frame.size.width / 2, self.bottom.center.y);
+            
+        } completion:^(BOOL finished) {
+            
+//            [self hidenConditionView:YES];
+            
+        }];
+    }
+    else{
+        
+//        [self hidenConditionView:NO];
+        
+        [UIView animateWithDuration:0.3 animations:^{
+            
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, BOTTOM_HEIGHT + ITEM_HEIGHT * self.section);
+            
+            self.conditionView.alpha = 1;
+            
+            sender.frame = CGRectMake(0, ITEM_HEIGHT * self.section, 50, BOTTOM_HEIGHT);
+            sender.center = CGPointMake(self.frame.size.width / 2, self.bottom.center.y);
+        }];
+        
+    }
+    sender.selected = !sender.selected;
+}
 
 
 
@@ -194,7 +268,28 @@
 }
 
 
-
+- (void)hidenConditionView:(BOOL)isHiden{
+    
+    if(isHiden){
+        
+        self.conditionView.hidden = YES;
+        
+        for (UIView *subView in self.conditionView.subviews) {
+            
+            subView.hidden = YES;
+            
+        }
+    }
+    else{
+        self.conditionView.hidden = NO;
+        
+        for (UIView *subView in self.conditionView.subviews) {
+            
+            subView.hidden = NO;
+            
+        }
+    }
+}
 
 
 
