@@ -1,4 +1,18 @@
 # iOS-PackageView
 封装的界面、视图
 
-![image](https://raw.githubusercontent.com/BaiPeiHe/iOS-PackageView/master/Effect%20Image/Simulator%20Screen%20Shot%202016年9月12日%20下午3.34.43.png)
+Case01 QQ 通讯录界面 - 全部刷新
+
+Case02   QQ 通讯录界面 - 局部刷新
+
+Case03   商品分类展示 - TableView联动 (未完成)
+
+Case04   中关村 - TableView联动
+
+Case05   省市区 - TableView联动
+
+Case06   多种限制条件检索视图 - 竖向 (未完成)
+
+Case07   多种限制条件检索视图 - 横向
+
+
