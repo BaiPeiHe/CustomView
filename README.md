@@ -1,6 +1,9 @@
 # iOS-PackageView
 封装的界面、视图
 
+[效果图展示](http://blog.csdn.net/qq_26872741/article/details/52514258)
+
+
 Case01 QQ 通讯录界面 - 全部刷新
 
 Case02   QQ 通讯录界面 - 局部刷新
